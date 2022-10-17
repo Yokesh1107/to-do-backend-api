@@ -1,0 +1,25 @@
+GET http://localhost:3000/datas
+
+###
+
+POST http://localhost:3000/datas
+Content-Type: application/jsonq
+###
+
+PATCH  http://localhost:3000/datas/634ba8fcba65c3a4519dbbce
+Content-Type: application/json
+
+{
+    "tag":[
+        "less important",
+        "not important"
+    ]
+}
+
+###
+
+DELETE  http://localhost:3000/datas/634bcd924883bbf9ce384b95
+
+###
+
+GET http://localhost:3000/searchData/tag/port
